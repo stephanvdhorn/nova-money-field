@@ -1,5 +1,5 @@
 <template>
-    <default-field :field="field">
+    <default-field :field="field" :show-help-text="showHelpText">
         <template slot="field">
             <div class="flex flex-wrap items-stretch w-full relative">
                 <div class="flex -mr-px">
